@@ -8,7 +8,7 @@
 
 		<!-- Center content -->
 
-      <main class="fullscreen text-white">
+      <main class="fullscreen bg-primary text-white">
 
         <div class="text-center vertical">
 
@@ -47,11 +47,11 @@
             <div class="container">
               <ul class="row">
 
-                <li class="col-sm part text-center">Computer Science</li>
+                <li class="col-sm part text-center bg-success text-white">Computer Science</li>
 
-                <li class="col-sm part text-center">Engineering</li>
+                <li class="col-sm part text-center bg-warning text-white">Engineering</li>
 
-                <li class="col-sm part text-center">Artificial Intelligence</li>
+                <li class="col-sm part text-center bg-info text-white">Artificial Intelligence</li>
 
               </ul>
             </div>
