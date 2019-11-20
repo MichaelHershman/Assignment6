@@ -4,7 +4,7 @@
 
 
 
-    
+
 
 		<!-- Center content -->
 
@@ -67,7 +67,7 @@
         <hr>
 				<section class="strong">
 
-					<a href="projects.php">See Projects </a>
+					<a href="index.php#contact_form">Sign up below to join our club </a>
 
 				</section>
         <hr>
