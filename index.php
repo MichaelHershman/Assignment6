@@ -156,7 +156,7 @@
 
 					<div id="after_submit"></div>
 
-          <div class="container small">
+          <div class="container small" id="form-wrapper">
 
             <form class="text-center" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
               <div class="row">
@@ -213,7 +213,21 @@
 
 
       <footer>
-
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script>
+$("#contact_form").submit(function(e) {
+  var formData = $("#contact_form").serialize();
+  $.ajax({
+    type: 'POST',
+    url: "new.php",
+    data: formData,
+    success: function(data){
+      $("#form-wrapper").html("Thank you for your Information!");
+    }
+  });
+  e.preventDefault();
+});
+</script>
 
 
     </body>

@@ -78,7 +78,13 @@ h2, h3{
 	
 }
 
+#form-wrapper{
+	font-size: 1.5rem;
 
+	text-align: center;
+
+	color: #007bff;
+}
 
 .bg-secondary .container .col-12{
 
@@ -86,7 +92,9 @@ h2, h3{
 
 }
 
-
+.vertical h3{
+	color: white;
+}
 
 .que{
 
