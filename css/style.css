@@ -12,7 +12,9 @@ body{
 
 }
 
-
+.nav{
+	margin-top:10px;
+}
 
 h1, h2, h3{
 
@@ -20,15 +22,20 @@ h1, h2, h3{
 
 }
 
-
+img{
+	padding-right: 30px;
+}
 
 h2, h3{
-
+	color: #007bff;
 	font-weight: bold;
 
 }
 
-
+.sm-container{
+	max-width: 800px;
+	line-height: 2em;
+}
 
 .fullscreen{
 
@@ -95,17 +102,13 @@ h2, h3{
 
 	text-align: center;
 
-	
+}
 
+.left{
+	text-align: left;
 }
 
 
-
-#contact_form{
-
-	
-
-}
 
 
 
@@ -119,10 +122,10 @@ h2, h3{
 
 footer p{
 
-	line-height: 150px;
+	line-height: 100px;
 
-	margin: 0;
-
+	margin-top: 100px;
+	margin-bottom: 0;
 	font-size: 1.5em;
 
 	font-family:  'Montserrat', sans-serif;
@@ -141,7 +144,9 @@ footer p{
 
 }
 
-
+.small{
+	width: 900px;
+}
 
 .top{
 

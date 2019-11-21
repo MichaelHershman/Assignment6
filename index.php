@@ -142,7 +142,7 @@
 
 				</section>
 
-        </hr>
+        <hr>
 
 
 
@@ -156,11 +156,13 @@
 
 					<div id="after_submit"></div>
 
-          <div class="container">
+          <div class="container small">
 
             <form class="text-center" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-
-            <div class="row">
+              <div class="row">
+                
+             
+            <div class="col-sm left">
 
               <label class="required" for="name">Your name:</label><br />
 
@@ -170,7 +172,7 @@
 
             </div>
 
-            <div class="row">
+            <div class="col-sm left">
 
               <label class="required" for="email">Your email:</label><br />
 
@@ -179,7 +181,7 @@
               <span id="email_validation" class="error_message"></span>
 
             </div>
-
+             </div>
             <div class="row">
 
               <label class="required" for="message">Your message:</label><br />
